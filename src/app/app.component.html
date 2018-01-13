@@ -69,6 +69,62 @@
         <!--3.14 -->
       </tr>
 
+      <tr>
+        <td>{{ a }}</td>
+        <td> percent </td>
+        <td>{{a | percent }}</td>
+        <!--23% -->
+      </tr>
+
+      <tr>
+        <td>{{ a }}</td>
+        <td> percent:'2.2-2' </td>
+        <td>{{a | percent:'2.2-2' }}</td>
+        <!--23.40% -->
+      </tr>
+
+      <tr>
+        <td>{{ salario }}</td>
+        <td> currency </td>
+        <td>{{salario | currency }}</td>
+        <!--$1,234.50 -->
+      </tr>
+
+      <tr>
+        <td>{{ salario }}</td>
+        <td> currency:'COU' </td>
+        <td>{{salario | currency:'COU' }}</td>
+        <!--COU1,234.50 -->
+      </tr>
+
+      <tr>
+        <td>{{ salario }}</td>
+        <td> currency:'EUR' </td>
+        <td>{{salario | currency:'EUR' }}</td>
+        <!--€1,234.50 -->
+      </tr>
+
+      <tr>
+        <td>{{ salario }}</td>
+        <td> currency:'EUR':true </td>
+        <td>{{salario | currency:'EUR':true }}</td>
+        <!--€1,234.50 -->
+      </tr>
+
+      <tr>
+        <td>{{ salario }}</td>
+        <td> currency:'EUR':true:'4.0-0' </td>
+        <td>{{salario | currency:'EUR':true:'4.0-0' }}</td>
+        <!--€1,235 -->
+      </tr>
+
+      <tr>
+        <td>{{ salario }}</td>
+        <td> number:'.2-2' </td>
+        <td>{{salario | number:'.2-2' }}</td>
+        <!--	1,234.50 -->
+      </tr>
+
     </tbody>
   </table>
 
