@@ -125,6 +125,27 @@
         <!--	1,234.50 -->
       </tr>
 
+      <tr>
+        <td>{{ valorDePromesa }}</td>
+        <td> asyc </td>
+        <td>{{valorDePromesa  }}</td>
+        <!--	[object Promise] -->
+      </tr>
+
+      <tr>
+        <td>{{ valorDePromesa | json }}</td>
+        <td> asyc </td>
+        <td>{{valorDePromesa | json }}</td>
+        <!--		{ "__zone_symbol__state": null, "__zone_symbol__value": [] }-->
+      </tr>
+
+      <tr>
+        <td>{{ valorDePromesa | async }}</td>
+        <td> asyc </td>
+        <td>{{valorDePromesa | async }}</td>
+        <!--		{ "__zone_symbol__state": null, "__zone_symbol__value": [] }-->
+      </tr>
+
     </tbody>
   </table>
 
