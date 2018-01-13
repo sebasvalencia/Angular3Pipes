@@ -146,6 +146,29 @@
         <!--		{ "__zone_symbol__state": null, "__zone_symbol__value": [] }-->
       </tr>
 
+      <tr>
+        <td>{{ fecha }}</td>
+        <td> date </td>
+        <td>{{fecha  }}</td>
+        <!--	Sat Jan 13 2018 18:27:24 GMT-0500 (Hora est. Pacífico, Sudamérica)-->
+      </tr>
+
+      <tr>
+        <td>{{ fecha }}</td>
+        <td> date:'medium' </td>
+        <td>{{fecha | date:'medium' }}</td>
+        <!--Jan 13, 2018, 6:28:24 PM-->
+      </tr>
+
+      <tr>
+        <td>{{ fecha }}</td>
+        <td> date:'MMMM - dd' </td>
+        <td>{{fecha | date:'MMMM - dd' }}</td>
+        <!--January - 13-->
+      </tr>
+
+
+
     </tbody>
   </table>
 
