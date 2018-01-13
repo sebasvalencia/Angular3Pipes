@@ -136,5 +136,21 @@
   </ul>
 
 
+  <h4>JSON</h4>
+  {{ heroe }}<!--	[object Object]  -->
+<br><br><br>
+  {{ heroe | json}}<!--	{ "nombre": "Logan", "clave": "Wolverine", "edad": 500, "direccion": { "calle": "primera", "casa": "19" } } -->
+
+  <pre>{{heroe | json}}</pre>
+  <!--{
+    "nombre": "Logan",
+    "clave": "Wolverine",
+    "edad": 500,
+    "direccion": {
+      "calle": "primera",
+      "casa": "19"
+    }
+  }-->
+
 
 </div>
