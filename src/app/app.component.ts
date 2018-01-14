@@ -29,7 +29,8 @@ export class AppComponent {
   });
 
   fecha = new Date();
-  
+
+  nombre2 = "sebastIan valeNCia";
 
 
 

@@ -125,19 +125,20 @@
         <!--	1,234.50 -->
       </tr>
 
+      <!--
       <tr>
         <td>{{ valorDePromesa }}</td>
         <td> asyc </td>
         <td>{{valorDePromesa  }}</td>
         <!--	[object Promise] -->
-      </tr>
+      <!--</tr>-->
 
-      <tr>
+      <!--<tr>
         <td>{{ valorDePromesa | json }}</td>
         <td> asyc </td>
         <td>{{valorDePromesa | json }}</td>
         <!--		{ "__zone_symbol__state": null, "__zone_symbol__value": [] }-->
-      </tr>
+      <!--</tr>-->
 
       <tr>
         <td>{{ valorDePromesa | async }}</td>
@@ -166,6 +167,29 @@
         <td>{{fecha | date:'MMMM - dd' }}</td>
         <!--January - 13-->
       </tr>
+
+      <tr>
+        <td>{{ nombre2 }}</td>
+        <td> capitalizado </td>
+        <td>{{nombre2 | capitalizado }}</td>
+        <!--January - 13-->
+      </tr>
+
+      <tr>
+        <td>{{ nombre2 }}</td>
+        <td> capitalizado </td>
+        <td>{{nombre2 | capitalizado }}</td>
+        <!--Sebastian Valencia-->
+      </tr>
+
+      <tr>
+        <td>{{ nombre2 }}</td>
+        <td> capitalizado </td>
+        <td>{{nombre2 | capitalizado:false }}</td>
+        <!--Sebastian valencia-->
+      </tr>
+
+
 
 
 
